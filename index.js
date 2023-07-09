@@ -7,7 +7,6 @@ const Product = require("./db/Product")
 const Jwt = require('jsonwebtoken');
 const jwtKey = 'e-com';
 const app = express();
-mongoose.set('strictQuery', true);
 app.use(express.json());
 app.use(cors());
 
